@@ -1,0 +1,33 @@
+uuid: df1a36e9-c04b-4c13-bb48-017df2ac4f44
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.cqc_location.field_address
+    - field.field.node.cqc_location.field_cqc_location_id
+    - node.type.cqc_location
+  module:
+    - user
+_core:
+  default_config_hash: 1BUGK7_ZvDXYS4wbm6OGysAmUDYNn0m-VaXa_smre6c
+id: node.cqc_location.default
+targetEntityType: node
+bundle: cqc_location
+mode: default
+content:
+  field_address:
+    weight: 101
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: basic_string
+  field_cqc_location_id:
+    weight: 102
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+  links:
+    weight: 100
+hidden: {  }

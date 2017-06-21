@@ -1,0 +1,24 @@
+uuid: bf2f206a-ba4b-45bc-8c44-0741840c095a
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.cqc_location
+_core:
+  default_config_hash: 1t9i2o4_2jOJtexunfZf1OwwcpQ2Dn2RUNN1gfdALOw
+id: node.cqc_location.promote
+field_name: promote
+entity_type: node
+bundle: cqc_location
+label: 'Promoted to front page'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

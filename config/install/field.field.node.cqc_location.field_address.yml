@@ -1,0 +1,21 @@
+uuid: 5c1fda34-4385-48c0-9192-7e72d196d8af
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_address
+    - node.type.cqc_location
+_core:
+  default_config_hash: ToqUxIQz-2ORap547Ae5lIFbFib7QJW2QOQFW3w1JN8
+id: node.cqc_location.field_address
+field_name: field_address
+entity_type: node
+bundle: cqc_location
+label: Address
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

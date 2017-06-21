@@ -1,0 +1,23 @@
+uuid: a599cc5e-7745-4de0-a9fa-6d1ba81a16f2
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+_core:
+  default_config_hash: tMbBfnuozNJj2SZgmiN3a7YX7g3oz-eXB-BU2NAbR4Q
+id: node.field_cqc_location_id
+field_name: field_cqc_location_id
+entity_type: node
+type: string
+settings:
+  max_length: 255
+  is_ascii: false
+  case_sensitive: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

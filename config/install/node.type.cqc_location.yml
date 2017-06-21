@@ -1,0 +1,19 @@
+uuid: f8f362ce-d576-4ae9-8841-4f9b077dd662
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+_core:
+  default_config_hash: 1DfAcaTDWvzQdVd7lg3pBQMop4gqacB4qW8_2VkMWq8
+name: 'CQC Location'
+type: cqc_location
+description: 'A location regulated by CQC'
+help: ''
+new_revision: false
+preview_mode: 1
+display_submitted: false

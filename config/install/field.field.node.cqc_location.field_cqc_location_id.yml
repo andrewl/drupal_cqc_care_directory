@@ -1,0 +1,21 @@
+uuid: ce725501-8907-4788-b40f-f502146c7959
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_cqc_location_id
+    - node.type.cqc_location
+_core:
+  default_config_hash: IBwePumzMqEazNxfUewcaE1mv2SxWceMETGMIT8xY8Q
+id: node.cqc_location.field_cqc_location_id
+field_name: field_cqc_location_id
+entity_type: node
+bundle: cqc_location
+label: 'CQC Location ID'
+description: 'The location ID used by CQC to identify this Location'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

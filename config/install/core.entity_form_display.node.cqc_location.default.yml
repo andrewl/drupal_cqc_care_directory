@@ -1,0 +1,69 @@
+uuid: 204bdde1-6f0d-4b02-a2b1-fad29111d0a8
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.cqc_location.field_address
+    - field.field.node.cqc_location.field_cqc_location_id
+    - node.type.cqc_location
+  module:
+    - path
+_core:
+  default_config_hash: TnBTJMx-t6gng-d9bymUHVm0tdLlfySqp5j9RF3uTmQ
+id: node.cqc_location.default
+targetEntityType: node
+bundle: cqc_location
+mode: default
+content:
+  created:
+    type: datetime_timestamp
+    weight: 10
+    settings: {  }
+    third_party_settings: {  }
+  field_address:
+    weight: 31
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textarea
+  field_cqc_location_id:
+    weight: 32
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+  path:
+    type: path
+    weight: 30
+    settings: {  }
+    third_party_settings: {  }
+  promote:
+    type: boolean_checkbox
+    settings:
+      display_label: true
+    weight: 15
+    third_party_settings: {  }
+  sticky:
+    type: boolean_checkbox
+    settings:
+      display_label: true
+    weight: 16
+    third_party_settings: {  }
+  title:
+    type: string_textfield
+    weight: -5
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  uid:
+    type: entity_reference_autocomplete
+    weight: 5
+    settings:
+      match_operator: CONTAINS
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden: {  }

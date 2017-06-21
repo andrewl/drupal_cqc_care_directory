@@ -1,0 +1,12 @@
+uuid: 0cadd237-82bc-4e8f-b828-547ec546f715
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: NGX9chVG459mw5CIRMnnOUCy0X-F8YPWZItnytsORtg
+id: cqc_care_directory
+label: 'CQC Care Directory'
+description: 'Imports from CQC''s Data Download'
+source_type: 'Imports from CQC''s Data Download'
+module: null
+shared_configuration: null

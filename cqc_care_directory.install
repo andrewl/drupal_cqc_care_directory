@@ -1,0 +1,17 @@
+<?php
+
+/**
+ * @file
+ * Install, update and uninstall functions for the Pelaides module.
+ */
+
+/**
+ * Implements hook_uninstall().
+ *
+ * Removes config. There is perhaps a better way of doing this.
+ */
+function cqc_care_directory_uninstall() {
+  db_query("DELETE FROM {config} WHERE name LIKE '%cqc_care_directory%'");
+  db_query("DELETE FROM {config} WHERE name LIKE '%cqc_location%'");
+  drupal_flush_all_caches();
+}

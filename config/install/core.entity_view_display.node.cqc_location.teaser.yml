@@ -1,0 +1,23 @@
+uuid: 35517ed9-042f-43a1-834c-9b0ee5c083d4
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.cqc_location.field_address
+    - field.field.node.cqc_location.field_cqc_location_id
+    - node.type.cqc_location
+  module:
+    - user
+_core:
+  default_config_hash: 3vpLbr2TfP8O_0uKJe3sNExfvnVsqkRZ1QrMGkZ8LYg
+id: node.cqc_location.teaser
+targetEntityType: node
+bundle: cqc_location
+mode: teaser
+content:
+  links:
+    weight: 100
+hidden:
+  field_address: true
+  field_cqc_location_id: true

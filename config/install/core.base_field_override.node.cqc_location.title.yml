@@ -1,0 +1,20 @@
+uuid: bd0b497e-6e57-4d75-acd0-57dab3eb2b3d
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.cqc_location
+_core:
+  default_config_hash: R4xnWOZdiqLQjkcpe1m95SrvMHLSvwyXqnkk7BsMVb8
+id: node.cqc_location.title
+field_name: title
+entity_type: node
+bundle: cqc_location
+label: Name
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string
