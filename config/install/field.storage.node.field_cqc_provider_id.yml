@@ -1,13 +1,11 @@
-uuid: a599cc5e-7745-4de0-a9fa-6d1ba81a16f2
+uuid: 43bd66c2-3ee7-4f17-ade7-36da6a47423c
 langcode: en
 status: true
 dependencies:
   module:
     - node
-_core:
-  default_config_hash: PIa-KB9xK9dGOi2jNP1oXUPXehLi_FjXeeYFPTe7W-4
-id: node.field_cqc_location_id
-field_name: field_cqc_location_id
+id: node.field_cqc_provider_id
+field_name: field_cqc_provider_id
 entity_type: node
 type: string
 settings:

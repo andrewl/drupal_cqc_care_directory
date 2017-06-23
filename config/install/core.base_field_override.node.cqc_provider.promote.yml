@@ -1,15 +1,13 @@
-uuid: bf2f206a-ba4b-45bc-8c44-0741840c095a
+uuid: 6696dc34-2500-4558-8124-55dd5972e278
 langcode: en
 status: true
 dependencies:
   config:
-    - node.type.cqc_location
-_core:
-  default_config_hash: aW266TsLZg_f-7NAw27wWSwFK1bq6Ld1Kw9-4v7tJME
-id: node.cqc_location.promote
+    - node.type.cqc_provider
+id: node.cqc_provider.promote
 field_name: promote
 entity_type: node
-bundle: cqc_location
+bundle: cqc_provider
 label: 'Promoted to front page'
 description: ''
 required: false

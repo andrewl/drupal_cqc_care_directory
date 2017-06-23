@@ -1,0 +1,21 @@
+uuid: d22da29d-184d-46b8-9d22-57f75010ae0a
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.cqc_provider.field_cqc_provider_id
+    - field.field.node.cqc_provider.field_telephone_number
+    - node.type.cqc_provider
+  module:
+    - user
+id: node.cqc_provider.teaser
+targetEntityType: node
+bundle: cqc_provider
+mode: teaser
+content:
+  links:
+    weight: 100
+hidden:
+  field_cqc_provider_id: true
+  field_telephone_number: true

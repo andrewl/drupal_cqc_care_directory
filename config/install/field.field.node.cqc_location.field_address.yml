@@ -6,7 +6,7 @@ dependencies:
     - field.storage.node.field_address
     - node.type.cqc_location
 _core:
-  default_config_hash: ToqUxIQz-2ORap547Ae5lIFbFib7QJW2QOQFW3w1JN8
+  default_config_hash: '-56wXWh97S34t0OD7XUKQhH8DWuQAs3oF_vasQZZbhA'
 id: node.cqc_location.field_address
 field_name: field_address
 entity_type: node

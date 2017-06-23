@@ -1,0 +1,27 @@
+uuid: 52d2d2c7-530e-4d5b-aef4-3d36a19dffc2
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.webform_element
+    - field.field.node.cqc_location.field_address
+    - field.field.node.cqc_location.field_cqc_location_id
+    - node.type.cqc_location
+  module:
+    - user
+_core:
+  default_config_hash: EMMkgPkn2mknoBj15Xap6g80M3a9JoE25ANXxTObtus
+id: node.cqc_location.webform_element
+targetEntityType: node
+bundle: cqc_location
+mode: webform_element
+content:
+  field_address:
+    weight: 0
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: basic_string
+hidden:
+  field_cqc_location_id: true
+  links: true

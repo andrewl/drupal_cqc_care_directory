@@ -1,4 +1,4 @@
-uuid: f8f362ce-d576-4ae9-8841-4f9b077dd662
+uuid: bc952f47-91f5-4ab7-95c4-6e77d653dd3e
 langcode: en
 status: true
 dependencies:
@@ -8,11 +8,9 @@ third_party_settings:
   menu_ui:
     available_menus: {  }
     parent: ''
-_core:
-  default_config_hash: ALNkOXQPkX-IwU2SvzTNdCsAsiaKWygMnhQC1K4NECU
-name: 'CQC Location'
-type: cqc_location
-description: 'A location regulated by CQC'
+name: 'CQC Provider'
+type: cqc_provider
+description: 'A provider that provides services at locations regulated by CQC'
 help: ''
 new_revision: false
 preview_mode: 1

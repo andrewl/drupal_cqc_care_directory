@@ -10,7 +10,7 @@ dependencies:
   module:
     - user
 _core:
-  default_config_hash: 3vpLbr2TfP8O_0uKJe3sNExfvnVsqkRZ1QrMGkZ8LYg
+  default_config_hash: imOrntqTpB7Lr_f1yWcwxyvT9u6xXvhRVfs03QyykmI
 id: node.cqc_location.teaser
 targetEntityType: node
 bundle: cqc_location

@@ -1,0 +1,19 @@
+uuid: 8d4099fa-c6f1-424d-9771-6911a64c8068
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_telephone_number
+    - node.type.cqc_provider
+id: node.cqc_provider.field_telephone_number
+field_name: field_telephone_number
+entity_type: node
+bundle: cqc_provider
+label: 'Telephone Number'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

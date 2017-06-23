@@ -1,18 +1,14 @@
-uuid: a599cc5e-7745-4de0-a9fa-6d1ba81a16f2
+uuid: afcc7ec7-5361-48e8-8bd6-d77e07c65331
 langcode: en
 status: true
 dependencies:
   module:
     - node
-_core:
-  default_config_hash: PIa-KB9xK9dGOi2jNP1oXUPXehLi_FjXeeYFPTe7W-4
-id: node.field_cqc_location_id
-field_name: field_cqc_location_id
+id: node.field_telephone_number
+field_name: field_telephone_number
 entity_type: node
 type: string
 settings:
-  max_length: 255
-  is_ascii: false
   case_sensitive: false
 module: core
 locked: false

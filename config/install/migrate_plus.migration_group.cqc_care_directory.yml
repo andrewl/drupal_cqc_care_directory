@@ -3,7 +3,7 @@ langcode: en
 status: true
 dependencies: {  }
 _core:
-  default_config_hash: NGX9chVG459mw5CIRMnnOUCy0X-F8YPWZItnytsORtg
+  default_config_hash: BjzK2V65sO6HTB7xGZ_XnVPcY485hS6TC4C53r58a4U
 id: cqc_care_directory
 label: 'CQC Care Directory'
 description: 'Imports from CQC''s Data Download'

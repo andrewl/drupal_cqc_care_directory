@@ -1,15 +1,13 @@
-uuid: bd0b497e-6e57-4d75-acd0-57dab3eb2b3d
+uuid: 6dcb9a4b-f3ab-4f46-b411-c38a9146d460
 langcode: en
 status: true
 dependencies:
   config:
-    - node.type.cqc_location
-_core:
-  default_config_hash: v9EMlgoLdTv7Lemh8ZL36y3C9yb7mTSBGbv2DLDXY9g
-id: node.cqc_location.title
+    - node.type.cqc_provider
+id: node.cqc_provider.title
 field_name: title
 entity_type: node
-bundle: cqc_location
+bundle: cqc_provider
 label: Name
 description: ''
 required: true

@@ -1,0 +1,32 @@
+uuid: 5b194401-4d90-41c6-9b06-5c26c2e8ada1
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.cqc_provider.field_cqc_provider_id
+    - field.field.node.cqc_provider.field_telephone_number
+    - node.type.cqc_provider
+  module:
+    - user
+id: node.cqc_provider.default
+targetEntityType: node
+bundle: cqc_provider
+mode: default
+content:
+  field_cqc_provider_id:
+    weight: 102
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+  field_telephone_number:
+    weight: 103
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+  links:
+    weight: 100
+hidden: {  }

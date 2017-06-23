@@ -1,19 +1,16 @@
-uuid: 204bdde1-6f0d-4b02-a2b1-fad29111d0a8
+uuid: 76335953-0317-4caa-9384-b5b51c164da3
 langcode: en
 status: true
 dependencies:
   config:
-    - field.field.node.cqc_location.field_address
-    - field.field.node.cqc_location.field_cqc_location_id
-    - field.field.node.cqc_location.field_cqc_provider
-    - node.type.cqc_location
+    - field.field.node.cqc_provider.field_cqc_provider_id
+    - field.field.node.cqc_provider.field_telephone_number
+    - node.type.cqc_provider
   module:
     - path
-_core:
-  default_config_hash: rbULpYkNvhN3JbOHryJfrjqbJyuru43BfBrS4t9ialU
-id: node.cqc_location.default
+id: node.cqc_provider.default
 targetEntityType: node
-bundle: cqc_location
+bundle: cqc_provider
 mode: default
 content:
   created:
@@ -21,28 +18,20 @@ content:
     weight: 10
     settings: {  }
     third_party_settings: {  }
-  field_address:
-    weight: 31
-    settings:
-      rows: 5
-      placeholder: ''
-    third_party_settings: {  }
-    type: string_textarea
-  field_cqc_location_id:
+  field_cqc_provider_id:
     weight: 32
     settings:
       size: 60
       placeholder: ''
     third_party_settings: {  }
     type: string_textfield
-  field_cqc_provider:
+  field_telephone_number:
     weight: 33
     settings:
-      match_operator: CONTAINS
       size: 60
       placeholder: ''
     third_party_settings: {  }
-    type: entity_reference_autocomplete
+    type: string_textfield
   path:
     type: path
     weight: 30
