@@ -12,7 +12,7 @@ label: 'Migrate providers from the CQC care directory'
 source:
   plugin: csv
   path: 'public://CQC_directory.csv'
-  header_row_count: 5
+  header_row_count: 7
   keys:
     - cqc_provider_id
   column_names:
